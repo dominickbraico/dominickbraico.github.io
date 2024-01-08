@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAD</title>
+    <title>My CAD Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0;
             padding: 0;
             background-color: #f4f4f4;
         }
@@ -20,62 +20,68 @@
             color: white;
         }
 
-        section {
-            margin: 20px 0;
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
             padding: 20px;
-            background-color: #fff;
+        }
+
+        .gallery-item {
+            width: 400px; /* Set a fixed width for each gallery item */
+            height: 400px; /* Set a fixed height for each gallery item */
+            margin: 10px;
+            overflow: hidden;
+            border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        img {
-            max-width: 100%;
-            height: auto;
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure the image covers the entire container */
+            display: block;
         }
-
-        p {
-            line-height: 1.6;
+        /* Style for the back to home button */
+        .back-to-home {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
         }
-         /* Style for the back to home button */
-			 .back-to-home {
-				display: block;
-				margin: 20px auto;
-				padding: 10px 20px;
-				background-color: #333;
-				color: white;
-				text-decoration: none;
-				font-weight: bold;
-				text-align: center;
-			}
     </style>
 </head>
 
 <body>
 
     <header>
-        <h1>My Random CAD projects</h1>
+        <h1>My CAD Portfolio</h1>
         <!-- Back to Home button -->
         <a href="../index.html" class="back-to-home">Back to Home</a>
     </header>
 
-    <section>
-        <h2>Mini Project: 4-Cylinder Inline Engine</h2>
-        <p>This project showcases the design and implementation of an advanced industrial robotic arm. The robotic arm is equipped with state-of-the-art sensors and actuators, making it highly versatile and precise in various manufacturing tasks.</p>
-        <video controls preload="metadata">
-            <source src="../images/inline4.mp4" type="video/mp4"/>
-            Video not supported.
-        </video>
-        <p>For more details on the design, specifications, and performance of the robotic arm, feel free to contact me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
-    </section>
-
-    <!-- Inline engine mini project -->
-    <section>
-        <h2>Mini Project: Raspberry Pi 4 Case</h2>
-        <p>I have been playing around with the raspberry pi 4B quite a bit. I had been running game emulators on it but am now working on some image recongition software using Tensor Flow</p>
-        <img src="../images/Raspberry Pi 4 Case.jpg" alt="None" />
-        <p>For more details on the design, specifications, and performance of the robotic arm, feel free to contact me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
-    </section>
-
-    <!-- Add more sections for other projects -->
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="../images/jet_engine.png" alt="Project 1">
+        </div>
+        <div class="gallery-item">
+            <img src="../images/inline.gif" alt="Project 2">
+        </div>
+        <div class="gallery-item">
+            <img src="../images/crane.png" alt="Project 3">
+        </div>
+        <div class="gallery-item">
+            <img src="../images/crane.png" alt="Project 3">
+        </div>
+        <div class="gallery-item">
+            <img src="../images/crane.png" alt="Project 3">
+        </div>
+        <!-- Add more gallery items as needed -->
+    </div>
 
 </body>
 
