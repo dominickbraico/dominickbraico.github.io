@@ -19,7 +19,7 @@ redirect_from:
 
 Hello everyone! This is my digital portfolio where I will be outlining my current and past engineering work!
 
-I am a Mechanical Engineering student at the University of Illinois Urbana-Champaign with a minor in Computer Science, graduating in May 2026. My work focuses on robotics, control systems, and embedded software development, with experience spanning field robotics, powertrain engineering, and autonomous systems.
+I am a Mechanical Engineering student at the University of Illinois Urbana-Champaign with a minor in Computer Science, graduating in May 2026. I plan to pursue a graduate degree in Robotics upon completion of my Bachelors. I am actively seeking Robotics and Autonomy internships for Summer 2026.
 
 
 
