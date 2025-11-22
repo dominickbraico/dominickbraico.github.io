@@ -17,22 +17,59 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+I am a Mechanical Engineering student at the University of Illinois Urbana-Champaign with a minor in Computer Science, graduating in May 2026. My work focuses on robotics, control systems, and embedded software development, with experience spanning field robotics, powertrain engineering, and autonomous systems.
+
+I have worked as a Field Robotics Engineering Intern at the Construction Engineering Research Laboratory, where I designed rugged electronic control modules and custom sensor mounts for modular construction robots. I also interned at Whisper Aero, developing firmware for motor controllers and conducting dynamometer testing for high power density electric propulsion systems.
+
+My technical expertise includes mechanical design (SolidWorks CSWA certified), embedded programming in C/C++ and Python, and robotics frameworks like ROS 2. I am passionate about the intersection of mechanical systems and software, particularly in control systems, sensor integration, and autonomous vehicle development.
 
 
-# 🔥 News
 
 
-# 📝 Publications
 
 
-# 🎖 Honors and Awards
+# 📖 Education
 
+- *2022.08 - 2026.05*, **BS Mechanical Engineering, Minor in Computer Science**, University of Illinois Urbana-Champaign, GPA: 3.92
+  - Relevant Coursework: Software Development for Mobile Robots, Robotic Software Engineering, Intro to Robotics, Dynamics of Mechanical Systems, Applied Machine Learning, Computational Linear Algebra, Signal Processing
 
-# 📖 Educations
+# 💻 Work Experience
 
+**Field Robotics Engineering Intern** - *May 2024 – March 2025*
+Robotics for Engineer Operations - Construction Engineering Research Laboratory
+- Designed a rugged electronic control module for robot sensors and compute unit, reducing the volume of the electrical system and improving weatherproofing for a modular cable-driven construction robot
+- Modeled and fabricated 10+ custom sensor mounts in SolidWorks for LiDAR and IMU systems, improving sensor data integrity on heavy equipment mobile robots
 
-# 💬 Invited Talks
+**Powertrain Engineering Intern** - *May 2025 – Aug 2025*
+Whisper Aero
+- Developed firmware in C/C++ for motor controllers and a Python GUI for control and tuning of high power density 3-phase motors using field-oriented control
+- Manufactured motor dynamometer testing fixtures and conducted performance testing to characterize the powertrain system across the electric propulsor duty cycle
+- Automated dynamometer testing using Python scripts for data collection and torque sweep demands to dynamometer
 
+# 🎯 Projects
 
-# 💻 Internships
+**Robotic Mobile Manipulator Simulation**
+- Developed a comprehensive high-fidelity simulation environment in Gazebo featuring a Clearpath Husky mobile platform integrated with a UR3 manipulator arm and Robotiq 2F-85 gripper
+- Created ROS 2 package for control of all robot joints, enabling trajectory planning for complex manipulation tasks
+- Integrated virtual sensor systems, including wheel encoders and LiDAR, and developed Python nodes for data acquisition and robot state estimation
 
+# 🏆 Extracurriculars & Leadership
+
+**Control Systems & Sensor Integration Lead** - *February 2024 - Present*
+GHOST Electric Motorcycles
+- Collected data from motor encoder, IMU, temperature sensors, and BMS to create a vehicle performance dashboard
+- Implemented feedback control algorithms to fine tune torque response of 45kW PMAC motor
+- Designed wiring harness and high power cabling for 103.6V nominal voltage electric motorcycle
+
+**Moon Rover Excavation Project Lead** - *August 2023 - February 2024*
+Illinois Robotics in Space
+- Designed and fabricated regolith collection mechanism which transports BP-1 lunar regolith simulant on robotic excavation system used in a NASA Artemis Challenge
+- Led design for Aluminum 6061-T6 structural components for electric motors and drivetrain system mounting
+
+# 🛠️ Skills
+
+**Mechanical Design:** SolidWorks (Certified Mechanical Design Associate), Autodesk Fusion
+
+**Fabrication:** 3D Printing, Waterjet, Laser Cutter, Shop Tools, Soldering
+
+**Programming:** Python, C/C++, ROS 2

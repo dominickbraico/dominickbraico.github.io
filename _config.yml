@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Dominick Braico"
   avatar           : "images/profile.jpg"
-  bio              : ""
-  location         : ""
+  bio              : "Mechanical Engineering & Computer Science @ UIUC"
+  location         : "Chicago, IL"
   employer         :
   pubmed           :
   googlescholar    :
-  email            : ""
+  email            : "dominickbraico32@gmail.com"
   researchgate     :
   uri              :
   bitbucket        :
