@@ -17,8 +17,6 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<img src="images/uiuc-iblock.png" alt="UIUC I-Block" style="float: right; width: 80px; margin-left: 15px; margin-bottom: 10px;">
-
 I am a Mechanical Engineering student at the University of Illinois Urbana-Champaign with a minor in Computer Science, graduating in May 2026. My work focuses on robotics, control systems, and embedded software development, with experience spanning field robotics, powertrain engineering, and autonomous systems.
 
 I have worked as a Field Robotics Engineering Intern at the Construction Engineering Research Laboratory, where I designed rugged electronic control modules and custom sensor mounts for modular construction robots. I also interned at Whisper Aero, developing firmware for motor controllers and conducting dynamometer testing for high power density electric propulsion systems.
@@ -32,8 +30,13 @@ My technical expertise includes mechanical design (SolidWorks CSWA certified), e
 
 # 📖 Education
 
-- *2022.08 - 2026.05*, **BS Mechanical Engineering, Minor in Computer Science**, University of Illinois Urbana-Champaign, GPA: 3.92
-  - Relevant Coursework: Software Development for Mobile Robots, Robotic Software Engineering, Intro to Robotics, Dynamics of Mechanical Systems, Applied Machine Learning, Computational Linear Algebra, Signal Processing
+<img src="images/uiuc-iblock.png" alt="UIUC I-Block" style="float: left; width: 60px; margin-right: 15px; margin-bottom: 10px;">
+
+**BS Mechanical Engineering, Minor in Computer Science**
+*University of Illinois Urbana-Champaign*
+*2022.08 - 2026.05* | GPA: 3.92
+
+**Relevant Coursework:** Software Development for Mobile Robots, Robotic Software Engineering, Intro to Robotics, Dynamics of Mechanical Systems, Applied Machine Learning, Computational Linear Algebra, Signal Processing
 
 # 💻 Work Experience
 
