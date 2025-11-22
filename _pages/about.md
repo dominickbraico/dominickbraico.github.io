@@ -17,6 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+<img src="images/uiuc-iblock.png" alt="UIUC I-Block" style="float: right; width: 80px; margin-left: 15px; margin-bottom: 10px;">
+
 I am a Mechanical Engineering student at the University of Illinois Urbana-Champaign with a minor in Computer Science, graduating in May 2026. My work focuses on robotics, control systems, and embedded software development, with experience spanning field robotics, powertrain engineering, and autonomous systems.
 
 I have worked as a Field Robotics Engineering Intern at the Construction Engineering Research Laboratory, where I designed rugged electronic control modules and custom sensor mounts for modular construction robots. I also interned at Whisper Aero, developing firmware for motor controllers and conducting dynamometer testing for high power density electric propulsion systems.
@@ -53,18 +55,7 @@ Whisper Aero
 - Created ROS 2 package for control of all robot joints, enabling trajectory planning for complex manipulation tasks
 - Integrated virtual sensor systems, including wheel encoders and LiDAR, and developed Python nodes for data acquisition and robot state estimation
 
-# 🏆 Extracurriculars & Leadership
 
-**Control Systems & Sensor Integration Lead** - *February 2024 - Present*
-GHOST Electric Motorcycles
-- Collected data from motor encoder, IMU, temperature sensors, and BMS to create a vehicle performance dashboard
-- Implemented feedback control algorithms to fine tune torque response of 45kW PMAC motor
-- Designed wiring harness and high power cabling for 103.6V nominal voltage electric motorcycle
-
-**Moon Rover Excavation Project Lead** - *August 2023 - February 2024*
-Illinois Robotics in Space
-- Designed and fabricated regolith collection mechanism which transports BP-1 lunar regolith simulant on robotic excavation system used in a NASA Artemis Challenge
-- Led design for Aluminum 6061-T6 structural components for electric motors and drivetrain system mounting
 
 # 🛠️ Skills
 
