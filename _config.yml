@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Dominick Braico"
-description              : "Mechanical Engineering & Computer Science student at UIUC specializing in robotics, control systems, and autonomous manufacturing."
+description              : ""
 repository               : "dominickbraico/dominickbraico.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Dominick Braico"
   avatar           : "images/profile.jpg"
-  bio              : "University of Illinois Urbana-Champaign"
-  location         : "Illinois, USA"
+  bio              : ""
+  location         : ""
   employer         :
   pubmed           :
   googlescholar    :
-  email            : "dominickbraico32@gmail.com"
+  email            : ""
   researchgate     :
   uri              :
   bitbucket        :
