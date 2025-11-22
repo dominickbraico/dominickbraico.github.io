@@ -3,56 +3,84 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a mechanical engineering and computer science student at the University of Illinois Urbana-Champaign, specializing in robotics and autonomous manufacturing systems. Currently, I work at the U.S. Army Corps of Engineers Construction Engineering Research Laboratory supporting the development of unmanned ground vehicles (UGVs) for real-world applications.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My interests include control systems, sensor fusion, robotic manipulation, and autonomous navigation systems. 
 
+# 📂 Projects
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/Arm_render.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Industrial Robotic Arm](projects/industrial_arm.html)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+A 6 DOF robotic arm designed in SolidWorks with URDF export for Gazebo simulation and ROS integration.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+**Technologies:** SolidWorks, ROS 2, Gazebo, URDF
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/husky_ur3_gripper.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[LIDAR SLAM Mobile Manipulator](projects/lidar_slam.html)
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+Developed a custom mobile manipulator in ROS 2 Humble combining a Clearpath Husky base, UR3 arm, and Robotis gripper with LIDAR-based SLAM for autonomous navigation and mapping.
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+**Technologies:** ROS 2 Humble, SLAM, URDF, Gazebo
+</div>
+</div>
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/23season.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Space Rover Excavation System](projects/space_rover.html)
+
+Designed and fabricated structural components for a lunar excavation system as part of Illinois Robotics in Space, including custom pulleys, mounting plates, and belt mechanisms.
+
+**Technologies:** SolidWorks, 3D Printing, Waterjet Cutting
+</div>
+</div>
+
+- [Electric Motorcycle Controls](projects/electric_motorcycle.html) - Developed control systems for a high-performance electric motorcycle, implementing feedback algorithms for a 45kW motor and creating a real-time sensor dashboard.
+- [GPS-INS Extended Kalman Filter](projects/gps_ins_ekf.html) - Implemented a GPS-INS sensor fusion system from scratch using Extended Kalman Filter algorithm in Python.
+
+# 💼 Experience
+
+- *May 2025 - Aug 2025*, **Powertrain Engineering Intern**, Whisper Aero
+  - Designed and optimized electric motors for weight and efficiency using in-house electromagnetic/thermal analytical models and FEA tools
+  - Manufactured dynamometer testing fixtures and conducted performance testing to characterize the powertrain system across the electric propulsor duty cycle
+  - Developed firmware in C/C++ for motor controllers and a Python GUI for control and tuning of high power density 3-phase motors using field-oriented control
+  - Researched and evaluated 75+ COTS motors and controllers presenting a trade study that informed the final selection for drone propulsor prototypes
+
+- *May 2024 - March 2025*, **Field Robotics Engineering Intern**, Robotics for Engineer Operations - Construction Engineering Research Laboratory
+  - Designed a rugged electronic control module, reducing the electrical system volume and improving weather-proofing for a modular cable-driven construction robot
+  - Applied design for manufacturability (DFM) techniques to a new pulley system, reducing assembly time by an estimated 2 hours per module
+  - Modeled and fabricated 10+ custom sensor mounts in SolidWorks for LiDAR and IMU systems, improving sensor data integrity on heavy equipment mobile robots
+
+- *February 2024 - Present*, **Controls Systems Lead & Sensor Integration Lead**, GHOST Electric Motorcycles
+  - Implemented feedback control algorithms to fine tune torque response of 45kW PMAC motor
+  - Designed wiring harness and high power cabling for 103.6 nominal voltage electric motorcycle
+  - Integrated and logged data from IMU, temperature, and BMS sensors to create a real-time performance dashboard
+
+# 📖 Education
+
+- *2022 - Present*, **B.S. Mechanical Engineering & Computer Science**, University of Illinois Urbana-Champaign
+  - Specializing in robotics and autonomous manufacturing systems
+
+# 🛠️ Skills
+
+**Programming:** Python, C++, C, JavaScript, MATLAB
+
+**CAD/Design:** SolidWorks, AutoCAD, Fusion 360, ANSYS
+
+**Robotics:** ROS 2, Gazebo, Computer Vision, Control Systems, SLAM
+
+**Tools:** Git, Linux, Arduino, Raspberry Pi
