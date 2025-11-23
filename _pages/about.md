@@ -33,7 +33,7 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
 
 **BS Mechanical Engineering, Minor in Computer Science**
 *University of Illinois Urbana-Champaign*
-*2022.08 - 2026.05* | GPA: 3.92
+*August 2022 - May 2026* | GPA: 3.92
 
 **Relevant Coursework:** Software Development for Mobile Robots, Robotic Software Engineering, Intro to Robotics, Dynamics of Mechanical Systems, Applied Machine Learning, Computational Linear Algebra, Signal Processing
 
@@ -52,6 +52,9 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
     </ul>
   </div>
 </div>
+<div style="margin-left: 75px; margin-bottom: 20px;">
+  <a href="https://www.erdc.usace.army.mil/Media/News-Stories/Tag/181240/reo/" target="_blank" style="color: #0066cc;">Robotics for Engineer Operations (REO)</a>
+</div>
 
 <div style="display: flex; margin-bottom: 20px; clear: both;">
   <div style="flex: 0 0 60px; margin-right: 15px;">
@@ -66,6 +69,9 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
       <li>Automated dynamometer testing using Python scripts for data collection and torque sweep demands to dynamometer</li>
     </ul>
   </div>
+</div>
+<div style="margin-left: 75px; margin-bottom: 20px;">
+  <a href="https://www.whisper.aero/" target="_blank" style="color: #0066cc;">Whisper Aero</a>
 </div>
 
 # Projects
@@ -90,7 +96,7 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
     <img src="images/ghost_controls.jpg" alt="GHOST Electric Motorcycle" style="width: 100%; border-radius: 8px;">
   </div>
   <div style="flex: 1;">
-    <h3 style="margin-top: 0;">Electric Motorcycle Control System <a href="https://ghostelectric.web.illinois.edu/" target="_blank" style="font-size: 0.8em;">🔗</a></h3>
+    <h3 style="margin-top: 0;">Electric Motorcycle Control System</h3>
     <p><strong>Skills:</strong> Motor Control, Sensor Integration, CAN Bus</p>
     <ul>
       <li>Developed control system software for 45kW PMAC motor on 103.6V electric motorcycle platform</li>
