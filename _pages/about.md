@@ -71,7 +71,7 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
 # Projects
 
 <div style="display: flex; margin-bottom: 30px; clear: both;">
-  <div style="flex: 0 0 300px; margin-right: 20px;">
+  <div style="flex: 0 0 450px; margin-right: 20px;">
     <img src="images/husky_ur3_gripper.png" alt="Robotic Mobile Manipulator" style="width: 100%; border-radius: 8px;">
   </div>
   <div style="flex: 1;">
@@ -86,7 +86,7 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
 </div>
 
 <div style="display: flex; margin-bottom: 30px; clear: both;">
-  <div style="flex: 0 0 300px; margin-right: 20px;">
+  <div style="flex: 0 0 450px; margin-right: 20px;">
     <img src="images/ghost_controls.jpg" alt="GHOST Electric Motorcycle" style="width: 100%; border-radius: 8px;">
   </div>
   <div style="flex: 1;">
@@ -102,7 +102,7 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
 </div>
 
 <div style="display: flex; margin-bottom: 30px; clear: both;">
-  <div style="flex: 0 0 300px; margin-right: 20px;">
+  <div style="flex: 0 0 450px; margin-right: 20px;">
     <img src="images/23season.jpg" alt="Lunar Rover Excavation" style="width: 100%; border-radius: 8px;">
   </div>
   <div style="flex: 1;">
@@ -118,8 +118,11 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
 </div>
 
 <div style="display: flex; margin-bottom: 30px; clear: both;">
-  <div style="flex: 0 0 300px; margin-right: 20px;">
-    <img src="images/pathfollowing.gif" alt="GPS-INS EKF Path Following" style="width: 100%; border-radius: 8px;">
+  <div style="flex: 0 0 450px; margin-right: 20px;">
+    <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px;">
+      <source src="images/ekf_spedup_cropped.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
   <div style="flex: 1;">
     <h3 style="margin-top: 0;">GPS-INS Extended Kalman Filter</h3>
