@@ -87,11 +87,11 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
 
 <div style="display: flex; margin-bottom: 30px; clear: both;">
   <div style="flex: 0 0 300px; margin-right: 20px;">
-    <img src="images/23season.jpg" alt="GHOST Electric Motorcycle" style="width: 100%; border-radius: 8px;">
+    <img src="images/ghost_controls.jpg" alt="GHOST Electric Motorcycle" style="width: 100%; border-radius: 8px;">
   </div>
   <div style="flex: 1;">
     <h3 style="margin-top: 0;">Electric Motorcycle Control System <a href="https://ghostelectric.web.illinois.edu/" target="_blank" style="font-size: 0.8em;">🔗</a></h3>
-    <p><strong>Skills:</strong> Embedded C/C++, CAN Bus, Feedback Control, Sensor Integration, PCB Design</p>
+    <p><strong>Skills:</strong> Motor Control, Sensor Integration, CAN Bus</p>
     <ul>
       <li>Developed control system software for 45kW PMAC motor on 103.6V electric motorcycle platform</li>
       <li>Implemented feedback control algorithms to optimize torque response and motor performance</li>
@@ -103,7 +103,7 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
 
 <div style="display: flex; margin-bottom: 30px; clear: both;">
   <div style="flex: 0 0 300px; margin-right: 20px;">
-    <img src="images/atlas.png" alt="Lunar Rover Excavation" style="width: 100%; border-radius: 8px;">
+    <img src="images/23season.jpg" alt="Lunar Rover Excavation" style="width: 100%; border-radius: 8px;">
   </div>
   <div style="flex: 1;">
     <h3 style="margin-top: 0;">Lunar Rover Excavation Mechanisms</h3>
@@ -113,6 +113,22 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
       <li>Led structural design of Aluminum 6061-T6 components for electric motor and drivetrain system mounting</li>
       <li>Optimized excavation system for reliability in simulated lunar surface conditions</li>
       <li>Conducted testing and iteration to ensure robust performance during collection operations</li>
+    </ul>
+  </div>
+</div>
+
+<div style="display: flex; margin-bottom: 30px; clear: both;">
+  <div style="flex: 0 0 300px; margin-right: 20px;">
+    <img src="images/pathfollowing.gif" alt="GPS-INS EKF Path Following" style="width: 100%; border-radius: 8px;">
+  </div>
+  <div style="flex: 1;">
+    <h3 style="margin-top: 0;">GPS-INS Extended Kalman Filter</h3>
+    <p><strong>Skills:</strong> Python, Sensor Fusion, State Estimation, Kalman Filtering, Navigation Algorithms</p>
+    <ul>
+      <li>Implemented Extended Kalman Filter for fusing GPS and Inertial Navigation System (INS) data for robust state estimation</li>
+      <li>Developed motion model and measurement models for accurate position and velocity tracking</li>
+      <li>Simulated sensor noise and evaluated filter performance under various environmental conditions</li>
+      <li>Achieved improved localization accuracy compared to individual sensor outputs through optimal sensor fusion</li>
     </ul>
   </div>
 </div>
