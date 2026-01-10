@@ -92,7 +92,7 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
     <h3 style="margin-top: 0;">Electric Motorcycle Control System</h3>
     <p><strong>Skills:</strong> Motor Control, Sensor Integration, CAN Bus</p>
     <ul>
-      <li>Spearheaded the development of the first ever electric motorcycle controls architecture for newly formed automtive club (GHOST)</li?>
+      <li>Spearheaded the development of the first ever electric motorcycle controls architecture for newly formed automtive club (GHOST)</li>
       <li>Developed control system software for 45kW PMAC motor on 103.6V electric motorcycle</li>
       <li>Implemented feedback control algorithms to optimize torque response and motor performance</li>
       <li>Integrated data collection from motor encoder, IMU, temperature sensors, and BMS to create real-time vehicle performance dashboard</li>
