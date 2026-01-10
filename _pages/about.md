@@ -34,23 +34,6 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
 
 <div style="display: flex; margin-bottom: 20px; clear: both;">
   <div style="flex: 0 0 60px; margin-right: 15px;">
-    <img src="images/usace.png" alt="USACE Logo" style="width: 100%;">
-  </div>
-  <div style="flex: 1;">
-    <p style="margin-top: 0;"><strong>Field Robotics Engineering Intern</strong> - <em>May 2024 – March 2025</em><br>
-    Robotics for Engineer Operations - Construction Engineering Research Laboratory</p>
-    <ul>
-      <li>Designed a rugged electronic control module for robot sensors and compute unit, reducing the volume of the electrical system and improving weatherproofing for a modular cable-driven construction robot</li>
-      <li>Modeled and fabricated 10+ custom sensor mounts in SolidWorks for LiDAR and IMU systems, improving sensor data integrity on heavy equipment mobile robots</li>
-    </ul>
-  </div>
-</div>
-<div style="margin-left: 75px; margin-bottom: 20px;">
-  <a href="https://www.erdc.usace.army.mil/Media/News-Stories/Tag/181240/reo/" target="_blank" style="color: #0066cc;">Robotics for Engineer Operations (REO)</a>
-</div>
-
-<div style="display: flex; margin-bottom: 20px; clear: both;">
-  <div style="flex: 0 0 60px; margin-right: 15px;">
     <img src="images/whisperaero_logo.png" alt="Whisper Aero Logo" style="width: 100%;">
   </div>
   <div style="flex: 1;">
@@ -65,6 +48,23 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
 </div>
 <div style="margin-left: 75px; margin-bottom: 20px;">
   <a href="https://www.whisper.aero/" target="_blank" style="color: #0066cc;">Whisper Aero</a>
+</div>
+
+<div style="display: flex; margin-bottom: 20px; clear: both;">
+  <div style="flex: 0 0 60px; margin-right: 15px;">
+    <img src="images/usace.png" alt="USACE Logo" style="width: 100%;">
+  </div>
+  <div style="flex: 1;">
+    <p style="margin-top: 0;"><strong>Field Robotics Engineering Intern</strong> - <em>May 2024 – March 2025</em><br>
+    Robotics for Engineer Operations - Construction Engineering Research Laboratory</p>
+    <ul>
+      <li>Designed a rugged electronic control module for robot sensors and compute unit, reducing the volume of the electrical system and improving weatherproofing for a modular cable-driven construction robot</li>
+      <li>Modeled and fabricated 10+ custom sensor mounts in SolidWorks for LiDAR and IMU systems, improving sensor data integrity on heavy equipment mobile robots</li>
+    </ul>
+  </div>
+</div>
+<div style="margin-left: 75px; margin-bottom: 20px;">
+  <a href="https://www.erdc.usace.army.mil/Media/News-Stories/Tag/181240/reo/" target="_blank" style="color: #0066cc;">Robotics for Engineer Operations (REO)</a>
 </div>
 
 # Projects
@@ -137,7 +137,7 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
 
 <div style="display: flex; margin-bottom: 30px; clear: both;">
   <div style="flex: 0 0 450px; margin-right: 20px;">
-    <img src="" alt="3D Surface Metrology Analyzer" style="width: 100%; border-radius: 8px; background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e0 100%); min-height: 300px;">
+    <img src="images/metrology_analyzer.png" alt="3D Surface Metrology Analyzer" style="width: 100%; border-radius: 8px;">
   </div>
   <div style="flex: 1;">
     <h3 style="margin-top: 0;">3D Surface Metrology Analyzer</h3>
