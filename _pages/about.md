@@ -8,13 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
 Hello everyone! This is my digital portfolio where I will be outlining my current and past engineering work!
@@ -78,10 +71,12 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
 
 <div style="display: flex; margin-bottom: 30px; clear: both;">
   <div style="flex: 0 0 450px; margin-right: 20px;">
-    <img src="images/husky_ur3_gripper.png" alt="Robotic Mobile Manipulator" style="width: 100%; border-radius: 8px;">
+    <a href="/projects/mobile-manipulator/">
+      <img src="images/husky_ur3_gripper.png" alt="Robotic Mobile Manipulator" style="width: 100%; border-radius: 8px;">
+    </a>
   </div>
   <div style="flex: 1;">
-    <h3 style="margin-top: 0;">Robotic Mobile Manipulator Simulation</h3>
+    <h3 style="margin-top: 0;"><a href="/projects/mobile-manipulator/" style="color: inherit; text-decoration: none;">Robotic Mobile Manipulator Simulation</a></h3>
     <p><strong>Skills:</strong> ROS 2, Gazebo, Python, C++, Trajectory Planning, Sensor Integration</p>
     <ul>
       <li>Developed a comprehensive high-fidelity simulation environment in Gazebo featuring a Clearpath Husky mobile platform integrated with a UR3 manipulator arm and Robotiq 2F-85 gripper</li>
@@ -93,10 +88,12 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
 
 <div style="display: flex; margin-bottom: 30px; clear: both;">
   <div style="flex: 0 0 450px; margin-right: 20px;">
-    <img src="images/ghost_controls.jpg" alt="GHOST Electric Motorcycle" style="width: 100%; border-radius: 8px;">
+    <a href="/projects/electric-motorcycle/">
+      <img src="images/ghost_controls.jpg" alt="GHOST Electric Motorcycle" style="width: 100%; border-radius: 8px;">
+    </a>
   </div>
   <div style="flex: 1;">
-    <h3 style="margin-top: 0;">Electric Motorcycle Control System</h3>
+    <h3 style="margin-top: 0;"><a href="/projects/electric-motorcycle/" style="color: inherit; text-decoration: none;">Electric Motorcycle Control System</a></h3>
     <p><strong>Skills:</strong> Motor Control, Sensor Integration, CAN Bus</p>
     <ul>
       <li>Developed control system software for 45kW PMAC motor on 103.6V electric motorcycle platform</li>
@@ -109,10 +106,12 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
 
 <div style="display: flex; margin-bottom: 30px; clear: both;">
   <div style="flex: 0 0 450px; margin-right: 20px;">
-    <img src="images/23season.jpg" alt="Lunar Rover Excavation" style="width: 100%; border-radius: 8px;">
+    <a href="/projects/lunar-rover/">
+      <img src="images/23season.jpg" alt="Lunar Rover Excavation" style="width: 100%; border-radius: 8px;">
+    </a>
   </div>
   <div style="flex: 1;">
-    <h3 style="margin-top: 0;">Lunar Rover Excavation Mechanisms</h3>
+    <h3 style="margin-top: 0;"><a href="/projects/lunar-rover/" style="color: inherit; text-decoration: none;">Lunar Rover Excavation Mechanisms</a></h3>
     <p><strong>Skills:</strong> SolidWorks, Mechanical Design, Aluminum Fabrication, System Integration, NASA Artemis Standards</p>
     <ul>
       <li>Designed and fabricated regolith collection mechanism to transport BP-1 lunar regolith simulant for NASA Artemis Challenge</li>
@@ -125,13 +124,15 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
 
 <div style="display: flex; margin-bottom: 30px; clear: both;">
   <div style="flex: 0 0 450px; margin-right: 20px;">
-    <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px;">
-      <source src="images/ekf_spedup_cropped.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <a href="/projects/gps-ins-ekf/">
+      <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px;">
+        <source src="images/ekf_spedup_cropped.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </a>
   </div>
   <div style="flex: 1;">
-    <h3 style="margin-top: 0;">GPS-INS Extended Kalman Filter</h3>
+    <h3 style="margin-top: 0;"><a href="/projects/gps-ins-ekf/" style="color: inherit; text-decoration: none;">GPS-INS Extended Kalman Filter</a></h3>
     <p><strong>Skills:</strong> Python, Sensor Fusion, State Estimation, Kalman Filtering, Navigation Algorithms</p>
     <ul>
       <li>Implemented Extended Kalman Filter for fusing GPS and Inertial Navigation System (INS) data for robust state estimation</li>
