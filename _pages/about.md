@@ -75,7 +75,7 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
   </div>
   <div style="flex: 1;">
     <h3 style="margin-top: 0;">Robotic Mobile Manipulator Simulation</h3>
-    <p><strong>Skills:</strong> ROS 2, Gazebo, Python, C++, MoveIt/p>
+    <p><strong>Skills:</strong> ROS 2, Gazebo, Python, C++, MoveIt</p>
     <ul>
       <li>Developed a comprehensive high-fidelity simulation environment in Gazebo featuring a Clearpath Husky mobile platform integrated with a UR3 manipulator arm and Robotiq 2F-85 gripper</li>
       <li>Created ROS 2 package for control of all robot joints, enabling trajectory planning for complex manipulation tasks</li>
