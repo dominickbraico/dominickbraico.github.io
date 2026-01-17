@@ -138,6 +138,23 @@ I am a Mechanical Engineering student at the University of Illinois Urbana-Champ
 
 <div style="display: flex; margin-bottom: 30px; clear: both;">
   <div style="flex: 0 0 450px; margin-right: 20px;">
+    <img src="images/slam.gif" alt="INS Lidar SLAM" style="width: 100%; border-radius: 8px;">
+  </div>
+  <div style="flex: 1;">
+    <h3 style="margin-top: 0;">INS Lidar SLAM</h3>
+    <p><strong>Skills:</strong> ROS 2, Python, LiDAR, SLAM, Sensor Fusion, Localization</p>
+    <ul>
+      <li>Developed a LiDAR-based SLAM system integrated with Inertial Navigation System (INS) for robust robot localization and mapping</li>
+      <li>Implemented scan matching algorithms to align point cloud data and build consistent 2D/3D maps in real-time</li>
+      <li>Fused LiDAR odometry with IMU data to improve pose estimation accuracy and handle sensor degradation</li>
+      <li>Built ROS 2 nodes for modular integration with mobile robot platforms</li>
+    </ul>
+    <p><a href="https://github.com/dominickbraico/ros2-lidar-slam" target="_blank" style="color: #0066cc;">View on GitHub →</a></p>
+  </div>
+</div>
+
+<div style="display: flex; margin-bottom: 30px; clear: both;">
+  <div style="flex: 0 0 450px; margin-right: 20px;">
     <img src="images/metrology_analyzer.png" alt="3D Surface Metrology Analyzer" style="width: 100%; border-radius: 8px;">
   </div>
   <div style="flex: 1;">
