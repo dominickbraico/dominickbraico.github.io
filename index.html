@@ -505,40 +505,25 @@
     }
     .proj-link:hover { color: var(--cyan); }
 
-    /* ── SKILLS ───────────────────────────── */
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1.25rem;
-    }
-    .skill-group {
-      background: rgba(12, 18, 32, 0.65);
-      border: 1px solid var(--border);
+    /* ── RESUME ──────────────────────────── */
+    .resume-viewer {
+      width: 100%;
+      aspect-ratio: 8.5 / 11;
+      border: 1px solid var(--border2);
       border-radius: var(--radius);
-      padding: 1.5rem;
-      backdrop-filter: blur(8px);
-      transition: border-color 0.3s, box-shadow 0.3s;
+      overflow: hidden;
+      background: var(--bg3);
     }
-    .skill-group:hover {
-      border-color: rgba(34, 211, 238, 0.2);
-      box-shadow: 0 6px 24px rgba(0,0,0,0.2);
+    .resume-viewer iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
     }
-    .skill-group-title {
-      font-family: 'Space Mono', monospace;
-      font-size: 0.65rem;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      color: var(--cyan);
-      margin-bottom: 1rem;
-    }
-    .skill-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
-    .skill-tag {
-      font-size: 0.82rem;
-      color: var(--text2);
-      background: rgba(255,255,255,0.04);
-      border: 1px solid var(--border);
-      padding: 0.28rem 0.75rem;
-      border-radius: 6px;
+    .resume-actions {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 1.25rem;
     }
 
     /* ── FOOTER ───────────────────────────── */
@@ -569,7 +554,6 @@
     /* ── RESPONSIVE ───────────────────────── */
     @media (max-width: 960px) {
       .projects-grid { grid-template-columns: 1fr; }
-      .skills-grid   { grid-template-columns: repeat(2, 1fr); }
       nav            { padding: 0 1.5rem; }
       #hero          { padding: 0 2rem 4.5rem; }
       .container     { padding: 0 1.75rem; }
@@ -579,7 +563,7 @@
     @media (max-width: 680px) {
       .nav-links    { display: none; }
       .social-strip { display: none; }
-      .skills-grid  { grid-template-columns: 1fr; }
+
       .exp-card     { grid-template-columns: 1fr; }
       .exp-logo     { display: none; }
     }
@@ -597,7 +581,7 @@
       <li><a href="#about">About</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#skills">Skills</a></li>
+      <li><a href="#resume">Resume</a></li>
     </ul>
     <a href="images/Resume.pdf" target="_blank" class="nav-resume">Resume</a>
   </nav>
@@ -619,7 +603,7 @@
   <section id="hero">
     <div class="hero-video-wrap">
       <video autoplay loop muted playsinline>
-        <source src="images/ekf_spedup_cropped.mp4" type="video/mp4">
+        <source src="images/Electric_Boat.mp4" type="video/mp4">
       </video>
     </div>
     <div class="hero-overlay"></div>
@@ -627,8 +611,7 @@
       <p class="hero-eyebrow">Robotics Engineer</p>
       <h1 class="hero-name">Dominick<br>Braico</h1>
       <p class="hero-desc">
-        Mechanical Engineering senior at UIUC. Incoming Masters in Robotics at the University of Michigan.
-        Focused on robot control, manipulation, and sensor fusion.
+        Incoming M.S. Robotics student at the University of Michigan. Research interests in mechatronics, field robotics, robotic manipulation, and control systems.
       </p>
       <div class="hero-links">
         <a href="#projects" class="btn-primary">View Work</a>
@@ -667,15 +650,14 @@
     <div class="container">
       <div class="section-label reveal">About</div>
       <div class="section-divider reveal"></div>
-      <h2 class="section-title reveal">Building Intelligent Machines</h2>
+      <h2 class="section-title reveal">Background and Interests</h2>
       <p class="about-text reveal">
-        I&rsquo;m a <strong>Mechanical Engineering student at UIUC</strong> with a minor in Computer Science,
-        graduating May 2026. My work sits at the intersection of physical hardware and intelligent
-        software&mdash;designing robots that can perceive, reason, and act in unstructured environments.
-        From motor firmware and sensor mounts to EKF state estimators and full robot simulations,
-        I build end-to-end systems across the full mechatronics stack.
-        I&rsquo;m actively seeking <strong>robotics and autonomy roles for Summer 2026</strong> and
-        plan to pursue a graduate degree in Robotics upon graduation.
+        I hold a B.S. in Mechanical Engineering from the University of Illinois Urbana-Champaign,
+        with a minor in Computer Science, and am continuing as an M.S. Robotics student at the
+        University of Michigan. I gravitate toward problems that
+        don&rsquo;t fit neatly into one domain: designing the mechanism, writing the control software,
+        and wiring up the electronics are, to me, parts of the same problem. I build across the mechanical,
+        software, and electrical stack because the most interesting challenges live at those intersections.
       </p>
     </div>
   </section>
@@ -816,6 +798,24 @@
 
         <div class="proj-card reveal">
           <div class="proj-media-wrap">
+            <video autoplay loop muted playsinline>
+              <source src="images/Electric_Boat.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="proj-body">
+            <div class="proj-title">Autonomous Electric Boat</div>
+            <p class="proj-desc">Developing an autonomous surface vessel competing in the <strong>PEP 26 Autonomy division</strong>. Integrating perception, navigation, and control systems to achieve fully autonomous operation on open water.</p>
+            <div class="proj-tags">
+              <span class="tag">ArduPilot</span>
+              <span class="tag">Sensor Fusion</span>
+              <span class="tag">Controls</span>
+              <span class="tag">Mechanical Design</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-card reveal">
+          <div class="proj-media-wrap">
             <img src="images/metrology_analyzer.png" alt="3D Surface Metrology Analyzer">
           </div>
           <div class="proj-body">
@@ -835,79 +835,17 @@
     </div>
   </section>
 
-  <!-- ── SKILLS ────────────────────────── -->
-  <section id="skills">
+  <!-- ── RESUME ───────────────────────── -->
+  <section id="resume">
     <div class="container">
-      <div class="section-label reveal">Skills</div>
+      <div class="section-label reveal">Resume</div>
       <div class="section-divider reveal"></div>
-      <h2 class="section-title reveal">Technical Expertise</h2>
-      <div class="skills-grid">
-
-        <div class="skill-group reveal">
-          <div class="skill-group-title">Programming</div>
-          <div class="skill-tags">
-            <span class="skill-tag">Python</span>
-            <span class="skill-tag">C / C++</span>
-            <span class="skill-tag">ROS 2</span>
-            <span class="skill-tag">JavaScript</span>
-            <span class="skill-tag">MATLAB</span>
-          </div>
-        </div>
-
-        <div class="skill-group reveal">
-          <div class="skill-group-title">Robotics &amp; Control</div>
-          <div class="skill-tags">
-            <span class="skill-tag">Gazebo</span>
-            <span class="skill-tag">MoveIt</span>
-            <span class="skill-tag">Kalman Filtering</span>
-            <span class="skill-tag">SLAM</span>
-            <span class="skill-tag">Motor Control</span>
-            <span class="skill-tag">CAN Bus</span>
-          </div>
-        </div>
-
-        <div class="skill-group reveal">
-          <div class="skill-group-title">Mechanical Design</div>
-          <div class="skill-tags">
-            <span class="skill-tag">SolidWorks (CSWA)</span>
-            <span class="skill-tag">Autodesk Fusion</span>
-            <span class="skill-tag">GD&amp;T</span>
-          </div>
-        </div>
-
-        <div class="skill-group reveal">
-          <div class="skill-group-title">Fabrication</div>
-          <div class="skill-tags">
-            <span class="skill-tag">3D Printing</span>
-            <span class="skill-tag">Waterjet</span>
-            <span class="skill-tag">Laser Cutter</span>
-            <span class="skill-tag">Soldering</span>
-            <span class="skill-tag">Machine Shop</span>
-          </div>
-        </div>
-
-        <div class="skill-group reveal">
-          <div class="skill-group-title">Hardware &amp; Electronics</div>
-          <div class="skill-tags">
-            <span class="skill-tag">LiDAR</span>
-            <span class="skill-tag">IMU</span>
-            <span class="skill-tag">Motor Controllers</span>
-            <span class="skill-tag">Embedded Systems</span>
-            <span class="skill-tag">PCB Design</span>
-          </div>
-        </div>
-
-        <div class="skill-group reveal">
-          <div class="skill-group-title">Methods &amp; Tools</div>
-          <div class="skill-tags">
-            <span class="skill-tag">Sensor Fusion</span>
-            <span class="skill-tag">State Estimation</span>
-            <span class="skill-tag">Field-Oriented Control</span>
-            <span class="skill-tag">Git</span>
-            <span class="skill-tag">Linux</span>
-          </div>
-        </div>
-
+      <h2 class="section-title reveal">Curriculum Vitae</h2>
+      <div class="resume-viewer reveal">
+        <iframe src="images/Braico_Resume_RoboticsSoftware_2026.pdf" title="Dominick Braico Resume"></iframe>
+      </div>
+      <div class="resume-actions reveal">
+        <a href="images/Braico_Resume_RoboticsSoftware_2026.pdf" download class="btn-primary">Download Resume</a>
       </div>
     </div>
   </section>
