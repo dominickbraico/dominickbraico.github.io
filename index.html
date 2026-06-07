@@ -728,7 +728,7 @@
           </div>
           <div class="proj-body">
             <div class="proj-title">Robotic Mobile Manipulator Simulation</div>
-            <p class="proj-desc">High-fidelity Gazebo simulation of a Clearpath Husky + UR3 arm + Robotiq gripper. Built ROS 2 packages for full joint control and trajectory planning; integrated virtual LiDAR and wheel encoders for state estimation.</p>
+            <p class="proj-desc">Developed a high-fidelity ROS 2 / Gazebo simulation of a mobile manipulation platform (Clearpath Husky UGV + UR3 arm + Robotiq gripper). Authored custom joint-space trajectory controllers and fused simulated LiDAR point clouds with wheel-encoder odometry for real-time localization; architecture designed to support future autonomous grasping pipelines.</p>
             <div class="proj-tags">
               <span class="tag">ROS 2</span>
               <span class="tag">Gazebo</span>
@@ -745,7 +745,7 @@
           </div>
           <div class="proj-body">
             <div class="proj-title">INS LiDAR SLAM</div>
-            <p class="proj-desc">LiDAR-based SLAM integrated with an INS for robust robot localization and mapping. Implemented scan matching for real-time 2D/3D map building and fused IMU data to improve pose estimation and handle sensor degradation.</p>
+            <p class="proj-desc">Built a LiDAR SLAM pipeline on an EarthSense TerraSentia agricultural UGV, processing raw point cloud data with a RANSAC-based line-fitting algorithm for feature extraction. Fused scan-derived landmarks with dead-reckoned odometry to estimate robot pose and publish a globally consistent 2D occupancy grid to the ROS /map topic.</p>
             <div class="proj-tags">
               <span class="tag">ROS 2</span>
               <span class="tag">LiDAR</span>
@@ -765,7 +765,7 @@
           </div>
           <div class="proj-body">
             <div class="proj-title">GPS-INS Extended Kalman Filter</div>
-            <p class="proj-desc">Implemented an EKF for fusing GPS and INS sensor data for robust state estimation. Developed motion and measurement models for accurate position and velocity tracking; evaluated under simulated noise and varied environmental conditions.</p>
+            <p class="proj-desc">Derived and implemented an EKF for fusing GPS position fixes with INS inertial measurements, enabling robust 6-DOF state estimation under simulated sensor noise. Formulated nonlinear process and measurement models with analytical Jacobians, modeled gyroscope and accelerometer bias drift, and benchmarked localization accuracy against ground-truth trajectories.</p>
             <div class="proj-tags">
               <span class="tag">Python</span>
               <span class="tag">Kalman Filter</span>
@@ -781,7 +781,7 @@
           </div>
           <div class="proj-body">
             <div class="proj-title">Electric Motorcycle Control System</div>
-            <p class="proj-desc">Led controls architecture for GHOST, UIUC&rsquo;s first electric motorcycle club. Developed software for a 45&thinsp;kW PMAC motor on a 103.6&thinsp;V drivetrain, implemented feedback control, and integrated encoder, IMU, temperature, and BMS data into a real-time dashboard.</p>
+            <p class="proj-desc">Led the embedded controls architecture for GHOST, UIUC&rsquo;s first electric motorcycle team. Developed PID-based closed-loop torque control firmware for a 45&thinsp;kW PMAC motor on a 103.6&thinsp;V drivetrain; aggregated encoder, IMU, temperature, and BMS telemetry over CAN bus into a real-time operator dashboard.</p>
             <div class="proj-tags">
               <span class="tag">Motor Control</span>
               <span class="tag">CAN Bus</span>
@@ -797,7 +797,7 @@
           </div>
           <div class="proj-body">
             <div class="proj-title">Lunar Rover Excavation Mechanisms</div>
-            <p class="proj-desc">Designed and fabricated a regolith collection mechanism for the NASA Artemis Challenge. Led structural design of AL 6061-T6 components for motor and drivetrain mounting, optimized for simulated lunar surface conditions.</p>
+            <p class="proj-desc">Designed and fabricated a regolith excavation and collection mechanism for the NASA Lunabotics Student Challenge. Led structural design of machined AL 6061-T6 components for actuator and drivetrain integration under mass budget and load constraints optimized for simulated lunar terrain traversal.</p>
             <div class="proj-tags">
               <span class="tag">SolidWorks</span>
               <span class="tag">Mechanical Design</span>
@@ -815,7 +815,7 @@
           </div>
           <div class="proj-body">
             <div class="proj-title">Autonomous Electric Boat</div>
-            <p class="proj-desc">Developing an autonomous surface vessel competing in the <strong>PEP 26 Autonomy division</strong>. Integrating perception, navigation, and control systems to achieve fully autonomous operation on open water.</p>
+            <p class="proj-desc">Developing an autonomous surface vehicle (ASV) for the <strong>PEP 26 Autonomy division</strong>, integrating GPS/GNSS waypoint navigation and closed-loop heading and speed control via ArduPilot / MAVLink. Fusing data from three redundant IMUs for robust attitude estimation and fault tolerance during open-water field operations.</p>
             <div class="proj-tags">
               <span class="tag">ArduPilot</span>
               <span class="tag">Sensor Fusion</span>
@@ -831,7 +831,7 @@
           </div>
           <div class="proj-body">
             <div class="proj-title">3D Surface Metrology Analyzer</div>
-            <p class="proj-desc">JavaScript application for analyzing 3D surface topography from precision measurement instruments. Implemented surface roughness calculation, statistical analysis, and interactive 3D visualization for surface profile inspection.</p>
+            <p class="proj-desc">Developed a web-based tool for computing and visualizing 3D surface topography from point cloud data. Implemented ISO surface roughness parameters (Ra, Rq, Rz) via statistical filtering pipelines and rendered interactive 3D surface visualizations for quantitative inspection workflows.</p>
             <div class="proj-tags">
               <span class="tag">JavaScript</span>
               <span class="tag">Python</span>
