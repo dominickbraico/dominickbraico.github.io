@@ -352,7 +352,6 @@ img, video { max-width: 100%; display: block; }
   object-fit: contain;
   padding: 10px;
   background: var(--surface);
-  border: 2px solid var(--ink);
   border-radius: 6px;
 }
 

@@ -72,7 +72,23 @@
 
       <div class="projects-grid">
 
-        <article class="proj-card proj-card--featured reveal">
+        <article class="proj-card reveal">
+          <div class="proj-media">
+            <span class="proj-badge">SIM2REAL</span>
+            <video autoplay loop muted playsinline>
+              <source src="images/x500%20PX4-Gazebo%20Survey.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="proj-body">
+            <h3 class="proj-title">High Fidelity Simulation Framework for Networked Multi-Robot Systems</h3>
+            <p class="proj-desc">Built a high-fidelity simulation framework for networked multi-robot systems using PX4 and Gazebo, coordinating multiple x500 quadrotors over a shared network for cooperative autonomous survey missions.</p>
+            <ul class="proj-tags">
+              <li>PX4</li><li>Gazebo</li><li>Sim2Real</li><li>Simulation</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="proj-card reveal">
           <div class="proj-media">
             <span class="proj-badge">Robotic Manipulation</span>
             <video autoplay loop muted playsinline>
@@ -80,27 +96,10 @@
             </video>
           </div>
           <div class="proj-body">
-            <span class="proj-flagship">Flagship</span>
             <h3 class="proj-title">Autonomous Robotic Server Disassembly</h3>
             <p class="proj-desc">Designing an automated robotic workcell for end-to-end server disassembly at the CMU Robotics Institute (Matt Lab), part of an industry-sponsored e-waste recycling initiative integrating perception, manipulation, and mechanical subsystems. </p>
             <ul class="proj-tags">
               <li>Manipulation</li><li>Computer Vision</li><li>YOLO</li><li>SAM2</li><li>End-Effector Design</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="proj-card reveal">
-          <div class="proj-media">
-            <span class="proj-badge">ROS 2 &middot; Simulation</span>
-            <video autoplay loop muted playsinline>
-              <source src="images/recording_dbraico2.webm" type="video/webm">
-            </video>
-          </div>
-          <div class="proj-body">
-            <h3 class="proj-title">Robotic Mobile Manipulator Simulation</h3>
-            <p class="proj-desc">Developed a high-fidelity ROS 2 / Gazebo simulation of a mobile manipulation platform (Clearpath Husky UGV + UR3 arm + Robotiq gripper). Authored custom joint-space trajectory controllers and fused simulated LiDAR point clouds with wheel-encoder odometry for real-time localization; architecture designed to support future autonomous grasping pipelines.</p>
-            <ul class="proj-tags">
-              <li>ROS 2</li><li>Gazebo</li><li>MoveIt</li><li>Python</li><li>C++</li>
             </ul>
           </div>
         </article>
@@ -123,16 +122,31 @@
 
         <article class="proj-card reveal">
           <div class="proj-media">
-            <span class="proj-badge">Perception &amp; Mapping</span>
-            <img src="images/slam.gif" alt="LiDAR SLAM occupancy grid built in real time" loading="lazy">
+            <span class="proj-badge">ROS 2 &middot; Simulation</span>
+            <video autoplay loop muted playsinline>
+              <source src="images/recording_dbraico2.webm" type="video/webm">
+            </video>
           </div>
           <div class="proj-body">
-            <h3 class="proj-title">INS LiDAR SLAM</h3>
-            <p class="proj-desc">Built a LiDAR SLAM pipeline on an EarthSense TerraSentia agricultural UGV, processing raw point cloud data with a RANSAC-based line-fitting algorithm for feature extraction. Fused scan-derived landmarks with dead-reckoned odometry to estimate robot pose and publish a globally consistent 2D occupancy grid to the ROS /map topic.</p>
+            <h3 class="proj-title">Robotic Mobile Manipulator Simulation</h3>
+            <p class="proj-desc">Developed a high-fidelity ROS 2 / Gazebo simulation of a mobile manipulation platform (Clearpath Husky UGV + UR3 arm + Robotiq gripper). Authored custom joint-space trajectory controllers and fused simulated LiDAR point clouds with wheel-encoder odometry for real-time localization; architecture designed to support future autonomous grasping pipelines.</p>
             <ul class="proj-tags">
-              <li>ROS 2</li><li>LiDAR</li><li>SLAM</li><li>Sensor Fusion</li><li>Python</li>
+              <li>ROS 2</li><li>Gazebo</li><li>MoveIt</li><li>Python</li><li>C++</li>
             </ul>
-            <a href="https://github.com/dominickbraico/ros2-lidar-slam" target="_blank" rel="noopener" class="proj-link">View on GitHub &rarr;</a>
+          </div>
+        </article>
+
+        <article class="proj-card reveal">
+          <div class="proj-media">
+            <span class="proj-badge">Embedded Controls</span>
+            <img src="images/bike_cad.png" alt="Electric motorcycle control system CAD" loading="lazy">
+          </div>
+          <div class="proj-body">
+            <h3 class="proj-title">Electric Motorcycle Control System</h3>
+            <p class="proj-desc">Led the embedded controls architecture for GHOST, UIUC&rsquo;s first electric motorcycle team. Developed PID-based closed-loop torque control firmware for a 45&thinsp;kW PMAC motor on a 103.6&thinsp;V drivetrain; aggregated encoder, IMU, temperature, and BMS telemetry over CAN bus into a real-time operator dashboard.</p>
+            <ul class="proj-tags">
+              <li>Motor Control</li><li>CAN Bus</li><li>Embedded</li><li>Sensor Integration</li>
+            </ul>
           </div>
         </article>
 
@@ -154,44 +168,16 @@
 
         <article class="proj-card reveal">
           <div class="proj-media">
-            <span class="proj-badge">Embedded Controls</span>
-            <img src="images/bike_cad.png" alt="Electric motorcycle control system CAD" loading="lazy">
+            <span class="proj-badge">Perception &amp; Mapping</span>
+            <img src="images/slam.gif" alt="LiDAR SLAM occupancy grid built in real time" loading="lazy">
           </div>
           <div class="proj-body">
-            <h3 class="proj-title">Electric Motorcycle Control System</h3>
-            <p class="proj-desc">Led the embedded controls architecture for GHOST, UIUC&rsquo;s first electric motorcycle team. Developed PID-based closed-loop torque control firmware for a 45&thinsp;kW PMAC motor on a 103.6&thinsp;V drivetrain; aggregated encoder, IMU, temperature, and BMS telemetry over CAN bus into a real-time operator dashboard.</p>
+            <h3 class="proj-title">INS LiDAR SLAM</h3>
+            <p class="proj-desc">Built a LiDAR SLAM pipeline on an EarthSense TerraSentia agricultural UGV, processing raw point cloud data with a RANSAC-based line-fitting algorithm for feature extraction. Fused scan-derived landmarks with dead-reckoned odometry to estimate robot pose and publish a globally consistent 2D occupancy grid to the ROS /map topic.</p>
             <ul class="proj-tags">
-              <li>Motor Control</li><li>CAN Bus</li><li>Embedded</li><li>Sensor Integration</li>
+              <li>ROS 2</li><li>LiDAR</li><li>SLAM</li><li>Sensor Fusion</li><li>Python</li>
             </ul>
-          </div>
-        </article>
-
-        <article class="proj-card reveal">
-          <div class="proj-media">
-            <span class="proj-badge">Mechanical Design</span>
-            <img src="images/23season.jpg" alt="Lunar rover excavation mechanism" loading="lazy">
-          </div>
-          <div class="proj-body">
-            <h3 class="proj-title">Lunar Rover Excavation Mechanisms</h3>
-            <p class="proj-desc">Designed and fabricated a regolith excavation and collection mechanism for the NASA Lunabotics Student Challenge. Led structural design of machined AL 6061-T6 components for actuator and drivetrain integration under mass budget and load constraints optimized for simulated lunar terrain traversal.</p>
-            <ul class="proj-tags">
-              <li>SolidWorks</li><li>Mechanical Design</li><li>Fabrication</li><li>NASA Artemis</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="proj-card reveal">
-          <div class="proj-media">
-            <span class="proj-badge">Software Tool</span>
-            <img src="images/metrology_analyzer.png" alt="3D surface metrology analyzer visualization" loading="lazy">
-          </div>
-          <div class="proj-body">
-            <h3 class="proj-title">3D Surface Metrology Analyzer</h3>
-            <p class="proj-desc">Developed a web-based tool for computing and visualizing 3D surface topography from point cloud data. Implemented ISO surface roughness parameters (Ra, Rq, Rz) via statistical filtering pipelines and rendered interactive 3D surface visualizations for quantitative inspection workflows.</p>
-            <ul class="proj-tags">
-              <li>JavaScript</li><li>Python</li><li>3D Visualization</li><li>Data Processing</li>
-            </ul>
-            <a href="https://github.com/dominickbraico/3d-surface-metrology-analyzer" target="_blank" rel="noopener" class="proj-link">View on GitHub &rarr;</a>
+            <a href="https://github.com/dominickbraico/ros2-lidar-slam" target="_blank" rel="noopener" class="proj-link">View on GitHub &rarr;</a>
           </div>
         </article>
 
@@ -212,6 +198,24 @@
 
         <article class="exp-card reveal">
           <div class="exp-logo-wrap">
+            <img src="images/mich_robotics.jpg" alt="Michigan Robotics" class="exp-logo">
+          </div>
+          <div class="exp-body">
+            <div class="exp-heading">
+              <div>
+                <h3 class="exp-title">Graduate Robotics Research Assistant</h3>
+                <p class="exp-org">Michigan Robotics &mdash; DASC Lab</p>
+              </div>
+              <span class="exp-period">Aug 2026 &ndash; Present</span>
+            </div>
+            <ul class="exp-bullets">
+              <li>Working on simulation infrastructure and network modeling for multi-robot systems</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="exp-card reveal">
+          <div class="exp-logo-wrap">
             <img src="images/ri_logo.png" alt="CMU Robotics Institute" class="exp-logo">
           </div>
           <div class="exp-body">
@@ -224,7 +228,6 @@
             </div>
             <ul class="exp-bullets">
               <li>Designing an automated robotic workcell for end-to-end server disassembly on an industry-sponsored e-waste recycling project, integrating perception, manipulation, and mechanical subsystems</li>
-              <li>Designed custom compliant end-effector that cut robotic unscrewing tasks by 55% versus a manipulation policy alone</li>
             </ul>
           </div>
         </article>
