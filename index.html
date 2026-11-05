@@ -36,7 +36,7 @@
       <li><a href="#about">About</a></li>
       <li><a href="#resume">Resume</a></li>
     </ul>
-    <a href="images\Resume_July2026.pdf" target="_blank" rel="noopener" class="nav-resume">Resume</a>
+    <a href="images/DominickBraico_Resume.pdf" target="_blank" rel="noopener" class="nav-resume">Resume</a>
   </nav>
 
   <!-- ── HERO ─────────────────────────── -->
@@ -55,7 +55,7 @@
       </p>
       <div class="hero-links reveal">
         <a href="#projects" class="btn btn-primary">View Projects</a>
-        <a href="images\Resume_July2026.pdf" target="_blank" rel="noopener" class="btn btn-ghost">Resume</a>
+        <a href="images/DominickBraico_Resume.pdf" target="_blank" rel="noopener" class="btn btn-ghost">Resume</a>
         <a href="mailto:dominickbraico32@gmail.com" class="btn btn-ghost">Contact</a>
       </div>
     </div>
@@ -74,6 +74,22 @@
 
         <article class="proj-card reveal">
           <div class="proj-media">
+            <span class="proj-badge">SIM2REAL</span>
+            <video autoplay loop muted playsinline>
+              <source src="images/multiagent_coms_dropout.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="proj-body">
+            <h3 class="proj-title">High Fidelity Simulation Framework for Networked Multi-Robot Systems</h3>
+            <p class="proj-desc">Built a high-fidelity simulation framework for networked multi-robot systems using PX4 and Gazebo, coordinating multiple x500 quadrotors over a shared network for cooperative autonomous survey missions.</p>
+            <ul class="proj-tags">
+              <li>PX4</li><li>Gazebo</li><li>Sim2Real</li><li>Simulation</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="proj-card reveal">
+          <div class="proj-media">
             <span class="proj-badge">Reinforcement Learning</span>
             <video autoplay loop muted playsinline>
               <source src="images/unitree_RL.mp4" type="video/mp4">
@@ -84,36 +100,6 @@
             <p class="proj-desc">Trained a velocity-conditioned walking policy for a 12-DoF Barkour quadruped using PPO in Brax / MuJoCo MJX, running thousands of parallel environments on GPU. Designed the reward function for body-frame linear and yaw velocity tracking, and used an MLP policy over an observation history to output joint targets at 50&thinsp;Hz.</p>
             <ul class="proj-tags">
               <li>PPO</li><li>Brax</li><li>MuJoCo MJX</li><li>JAX</li><li>Legged Locomotion</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="proj-card reveal">
-          <div class="proj-media">
-            <span class="proj-badge">3D Vision</span>
-            <img src="images/blender_lego_fine_grid.png" alt="NeRF novel view renderings of the Blender Lego scene" loading="lazy">
-          </div>
-          <div class="proj-body">
-            <h3 class="proj-title">Novel View Synthesis with NeRF</h3>
-            <p class="proj-desc">Implemented the core of a Neural Radiance Field in PyTorch to reconstruct the Blender synthetic &ldquo;Lego&rdquo; scene from multi-view images. Built pixel-to-ray generation from camera intrinsics and extrinsics, stratified sampling along rays, and a differentiable volume renderer producing RGB, depth, and opacity maps. Extended the pipeline with hierarchical coarse-to-fine sampling to recover finer geometry.</p>
-            <ul class="proj-tags">
-              <li>NeRF</li><li>PyTorch</li><li>Volume Rendering</li><li>3D Reconstruction</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="proj-card reveal">
-          <div class="proj-media">
-            <span class="proj-badge">SIM2REAL</span>
-            <video autoplay loop muted playsinline>
-              <source src="images/x500%20PX4-Gazebo%20Survey.mp4" type="video/mp4">
-            </video>
-          </div>
-          <div class="proj-body">
-            <h3 class="proj-title">High Fidelity Simulation Framework for Networked Multi-Robot Systems</h3>
-            <p class="proj-desc">Built a high-fidelity simulation framework for networked multi-robot systems using PX4 and Gazebo, coordinating multiple x500 quadrotors over a shared network for cooperative autonomous survey missions.</p>
-            <ul class="proj-tags">
-              <li>PX4</li><li>Gazebo</li><li>Sim2Real</li><li>Simulation</li>
             </ul>
           </div>
         </article>
@@ -168,20 +154,6 @@
 
         <article class="proj-card reveal">
           <div class="proj-media">
-            <span class="proj-badge">Embedded Controls</span>
-            <img src="images/bike_cad.png" alt="Electric motorcycle control system CAD" loading="lazy">
-          </div>
-          <div class="proj-body">
-            <h3 class="proj-title">Electric Motorcycle Control System</h3>
-            <p class="proj-desc">Led the embedded controls architecture for GHOST, UIUC&rsquo;s first electric motorcycle team. Developed PID-based closed-loop torque control firmware for a 45&thinsp;kW PMAC motor on a 103.6&thinsp;V drivetrain; aggregated encoder, IMU, temperature, and BMS telemetry over CAN bus into a real-time operator dashboard.</p>
-            <ul class="proj-tags">
-              <li>Motor Control</li><li>CAN Bus</li><li>Embedded</li><li>Sensor Integration</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="proj-card reveal">
-          <div class="proj-media">
             <span class="proj-badge">State Estimation</span>
             <video autoplay loop muted playsinline>
               <source src="images/ekf_spedup_cropped.mp4" type="video/mp4">
@@ -208,6 +180,34 @@
               <li>ROS 2</li><li>LiDAR</li><li>SLAM</li><li>Sensor Fusion</li><li>Python</li>
             </ul>
             <a href="https://github.com/dominickbraico/ros2-lidar-slam" target="_blank" rel="noopener" class="proj-link">View on GitHub &rarr;</a>
+          </div>
+        </article>
+
+        <article class="proj-card reveal">
+          <div class="proj-media">
+            <span class="proj-badge">Embedded Controls</span>
+            <img src="images/bike_cad.png" alt="Electric motorcycle control system CAD" loading="lazy">
+          </div>
+          <div class="proj-body">
+            <h3 class="proj-title">Electric Motorcycle Control System</h3>
+            <p class="proj-desc">Led the embedded controls architecture for GHOST, UIUC&rsquo;s first electric motorcycle team. Developed PID-based closed-loop torque control firmware for a 45&thinsp;kW PMAC motor on a 103.6&thinsp;V drivetrain; aggregated encoder, IMU, temperature, and BMS telemetry over CAN bus into a real-time operator dashboard.</p>
+            <ul class="proj-tags">
+              <li>Motor Control</li><li>CAN Bus</li><li>Embedded</li><li>Sensor Integration</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="proj-card reveal">
+          <div class="proj-media">
+            <span class="proj-badge">3D Vision</span>
+            <img src="images/blender_lego_fine_grid.png" alt="NeRF novel view renderings of the Blender Lego scene" loading="lazy">
+          </div>
+          <div class="proj-body">
+            <h3 class="proj-title">Novel View Synthesis with NeRF</h3>
+            <p class="proj-desc">Implemented the core of a Neural Radiance Field in PyTorch to reconstruct the Blender synthetic &ldquo;Lego&rdquo; scene from multi-view images. Built pixel-to-ray generation from camera intrinsics and extrinsics, stratified sampling along rays, and a differentiable volume renderer producing RGB, depth, and opacity maps. Extended the pipeline with hierarchical coarse-to-fine sampling to recover finer geometry.</p>
+            <ul class="proj-tags">
+              <li>NeRF</li><li>PyTorch</li><li>Volume Rendering</li><li>3D Reconstruction</li>
+            </ul>
           </div>
         </article>
 
@@ -371,11 +371,11 @@
       </div>
       <div class="resume-panel reveal">
         <div class="resume-viewer">
-          <iframe src="images\Resume_July2026.pdf" title="Dominick Braico Resume"></iframe>
+          <iframe src="images/DominickBraico_Resume.pdf" title="Dominick Braico Resume"></iframe>
         </div>
         <div class="resume-actions">
-          <p class="resume-note">Updated resume, August 2026.</p>
-          <a href="images\Resume_July2026.pdf" download class="btn btn-primary">Download Resume</a>
+          <p class="resume-note">Updated resume, November 2026.</p>
+          <a href="images/DominickBraico_Resume.pdf" download class="btn btn-primary">Download Resume</a>
         </div>
       </div>
     </div>
